@@ -1,4 +1,4 @@
-def printBoard():
+def printBoard(xState, zState):
     print(f"0 | 1 | 2")
     print(f"--|--|--")
     print(f"3 | 4 | 5")
@@ -12,6 +12,13 @@ if __name__ == "__main__":
     turn = 1 
     print("Welcome to tic tac toe ")
     while(True):
-        if(turn == 1)
-            print()
+        printBoard(xState, zState)
+        if(turn == 1):
+            print("X's Chance")
+            value = int(input("Please enter a value"))
+            xState[value] = 1
+        else:
+            print("X's Chance")
+            value = int(input("Please enter a value"))
+            zState[value] = 1
     
