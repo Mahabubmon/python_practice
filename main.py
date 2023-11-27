@@ -17,26 +17,30 @@
 
 # round(area)
 
-long = 92
-wide = 48.8
+# long = 92
+# wide = 48.8
 
-area = (1/2)*long*wide
+# area = (1/2)*long*wide
 
-print(area)
+# print(area)
 
-potato = 9
+# potato = 9
 
-packet = 1.49
+# packet = 1.49
 
-total = 20
+# total = 20
 
-result = 20 - (9*1.49) 
+# result = 20 - (9*1.49) 
 
-print(result)
+# print(result)
 
-length = 5.5
-tiles = 500 
+# length = 5.5
+# tiles = 500 
 
-total = length ** tiles
+# total = length ** tiles
 
-print(total)
+# print(total)
+
+food = 'samosa , jilafi'
+'jalebi' in food
+
