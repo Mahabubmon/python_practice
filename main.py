@@ -45,7 +45,13 @@
 # 'jalebi' in food
 
 
-n1=input("enter you name")
-n2=input("enter you education")
-print(n1, n2)
+# n1=input("enter you name")
+# n2=input("enter you education")
+# print(n1, n2)
 
+sweets = ['chomchom','golap jamn','rosmalai']
+type(sweets)
+type = sweets[0]
+type2 = sweets[1:3]
+print(type)
+print(type2)
