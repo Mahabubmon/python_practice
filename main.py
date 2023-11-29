@@ -41,6 +41,11 @@
 
 # print(total)
 
-food = 'samosa , jilafi'
-'jalebi' in food
+# food = 'samosa , jilafi'
+# 'jalebi' in food
+
+
+n1=input("enter you name")
+n2=input("enter you education")
+print(n1, n2)
 
