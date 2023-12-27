@@ -204,3 +204,30 @@ hdrs_questions = [
 
   
 ]
+
+@app.route('/quiz', methods=['POST'])
+def quiz():
+    results = []
+    for i in range(len(hdrs_questions)):
+        question = hdrs_questions[i]
+        selected_answer = request.form.get(str(i))
+        results.append({'question': question['title'], 'selectedAnswer': selected_answer})
+
+    total_score = sum(int(result['selectedAnswer']) for result in results)
+
+    range_label, message = get_score_range(total_score)
+
+    return render_template('results.html', total_score=total_score, range_label=range_label, message=message)
+
+def get_score_range(total_score):
+    if 0 <= total_score <= 5:
+        return '0-5', 'You are doing great!'
+    elif 6 <= total_score <= 10:
+        return '6-10', 'You\'re doing well, keep it up!'
+    elif 11 <= total_score <= 15:
+        return '11-15', 'You may want to pay attention to some aspects of your well-being.'
+    else:
+        return '16-20', 'It\'s advisable to seek professional help. Take care of yourself.'
+
+if __name__ == '__main__':
+    app.run(debug=True)
