@@ -61,10 +61,20 @@
  #   print("Five is greater than two~")
 
 
-car = "Toyota"
-model = "V48"
+#car = "Toyota"
+#model = "V48"
 
-if car == "Toyota" or model == "V48":
+#if car == "Toyota" or model == "V48":
 
-    print ("This is a nice car")
+ #   print ("This is a nice car")
 
+
+#if 5 > 2 :
+ #   print("5 greater than 2")
+
+#unpack a collection
+fruits = ["apple","banana","cherry"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z)
