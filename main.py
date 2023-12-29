@@ -73,15 +73,23 @@
  #   print("5 greater than 2")
 
 #unpack a collection
-fruits = ["apple","banana","cherry"]
-x,y,z = fruits
-print(x)
-print(y)
-print(z)
-
+#x,y,z = fruits
+#fruits = ["apple","banana","cherry"]
+#print(x)
+#print(y)
+#print(z)
+#
 x = "Isalm"
+#
+#def myfunc():
+#    print("the best thing in the world is " + x)
+#
+#myfunc()
 
 def myfunc():
-    print("the best thing in the world is " + x)
+    x= "best"
+    print("Islam is " + x)
 
 myfunc()
+
+print("The best thing in the world" + x)
