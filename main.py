@@ -104,11 +104,12 @@ b = ["apple", "banana", "cherry"]
 #specific data set
 
 c = str("Hello World")
+d = 35e3
+e = 3+5j
 
 
 
-
- 
+import random
 
 print(type(x))
 print(type(y))
@@ -116,5 +117,10 @@ print(type(z))
 print(type(a))
 print(type(b))
 print(type(c))
+print(type(d))
+print(type(e))
+print(random(1,10))
+
+
 
 
