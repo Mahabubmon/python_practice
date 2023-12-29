@@ -78,3 +78,10 @@ x,y,z = fruits
 print(x)
 print(y)
 print(z)
+
+x = "Isalm"
+
+def myfunc():
+    print("the best thing in the world is " + x)
+
+myfunc()
