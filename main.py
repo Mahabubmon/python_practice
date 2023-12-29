@@ -57,5 +57,14 @@
 # # print(type)
 # # print(type2)
 # print(type3)
-if 5 > 2:
-    print("Five is greater than two~")
+#if 5 > 2:
+ #   print("Five is greater than two~")
+
+
+car = "Toyota"
+model = "V48"
+
+if car == "Toyota" or model == "V48":
+
+    print ("This is a nice car")
+
