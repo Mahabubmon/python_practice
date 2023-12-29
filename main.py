@@ -79,17 +79,42 @@
 #print(y)
 #print(z)
 #
-x = "Isalm"
+#x = "Isalm"
 #
 #def myfunc():
 #    print("the best thing in the world is " + x)
 #
 #myfunc()
 
-def myfunc():
-    x= "best"
-    print("Islam is " + x)
+#def myfunc():
+ #   x= "best"
+ #   print("Islam is " + x)
 
-myfunc()
+#myfunc()
 
-print("The best thing in the world" + x)
+#print("The best thing in the world" + x)
+
+#data type
+x = 5 
+y = 20.5 
+z = 1j 
+a = "Hello World"
+b = ["apple", "banana", "cherry"]
+
+#specific data set
+
+c = str("Hello World")
+
+
+
+
+ 
+
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(a))
+print(type(b))
+print(type(c))
+
+
