@@ -3,7 +3,7 @@
 #     print(i)
 
 
-place = ["azimpur","new_market","dhanmondi"]
+# place = ["azimpur","new_market","dhanmondi"]
 # for x in range(len(place)):
 #     print(place[x])
 
@@ -25,5 +25,11 @@ place = ["azimpur","new_market","dhanmondi"]
 
 #         print(newlist)
 
-newList = [x for x in place if "a" in x]
-print(newList)
+# newList = [x for x in place if "a" in x]
+# print(newList)
+
+def myfunc(n):
+    return abs(n - 50)
+numberList = [100,50,25,23]
+numberList.sort(key = myfunc)
+print(numberList)
