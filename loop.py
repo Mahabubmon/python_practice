@@ -18,9 +18,12 @@ place = ["azimpur","new_market","dhanmondi"]
 
 # [print(x) for x in place]
 
-newlist = []
-for x in place:
-    if "a" in x:
-        newlist.append(x)
+# newlist = []
+# for x in place:
+#     if "a" in x:
+#         newlist.append(x)
 
-        print(newlist)
+#         print(newlist)
+
+newList = [x for x in place if "a" in x]
+print(newList)
