@@ -19,4 +19,20 @@ print(a.strip())
 print(a.replace("H","J"))
 print(a.split())
 
+b = "hell"
+c = "to"
+d = "go"
+
+e = a+" "+b+" "+c+" "+d
+print(e)
+
+
+
+price = 45
+item = 10
+quantity = 25
+
+mymarketting = "The price is:{}.The item:{}.The amount of quantity:{}"
+print(mymarketting.format(price,item,quantity))
+
 
