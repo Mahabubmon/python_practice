@@ -57,5 +57,70 @@
 # # print(type)
 # # print(type2)
 # print(type3)
-if 5 > 2:
-    print("Five is greater than two~")
+#if 5 > 2:
+ #   print("Five is greater than two~")
+
+
+#car = "Toyota"
+#model = "V48"
+
+#if car == "Toyota" or model == "V48":
+
+ #   print ("This is a nice car")
+
+
+#if 5 > 2 :
+ #   print("5 greater than 2")
+
+#unpack a collection
+#x,y,z = fruits
+#fruits = ["apple","banana","cherry"]
+#print(x)
+#print(y)
+#print(z)
+#
+#x = "Isalm"
+#
+#def myfunc():
+#    print("the best thing in the world is " + x)
+#
+#myfunc()
+
+#def myfunc():
+ #   x= "best"
+ #   print("Islam is " + x)
+
+#myfunc()
+
+#print("The best thing in the world" + x)
+
+#data type
+x = 5 
+y = 20.5 
+z = 1j 
+a = "Hello World"
+b = ["apple", "banana", "cherry"]
+
+#specific data set
+
+c = str("Hello World")
+d = 35e3
+e = 3+5j
+
+
+
+import random
+
+print(type(x))
+print(type(y))
+print(type(z))
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(random(1,10))
+
+
+
+
