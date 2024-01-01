@@ -65,12 +65,15 @@
 
 # print(store)
 
-store = ("Jinga", "Potol", "Alu", "kochu", "kodu", "papaya")
+store = ("Jinga", "Potol", "Alu")
 
 # print(store)
 # del store
 (yello,green,red) = store
 print(yello)
+print(green)
+print(red)
+
 
 
 
