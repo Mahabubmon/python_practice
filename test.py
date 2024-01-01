@@ -67,8 +67,11 @@
 
 store = ("Jinga", "Potol", "Alu", "kochu", "kodu", "papaya")
 
-print(store)
-del store
+# print(store)
+# del store
+(yello,green,red) = store
+print(yello)
+
 
 
 
