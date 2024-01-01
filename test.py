@@ -36,3 +36,10 @@ mymarketting = "The price is:{}.The item:{}.The amount of quantity:{}"
 print(mymarketting.format(price,item,quantity))
 
 
+thisTuple = ("apple","Banana","Cherry")
+
+print(len(thisTuple))
+
+#tuple() constructor
+store = tuple(("Jinga","Potol","Alu"))
+print(store)
