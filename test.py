@@ -51,20 +51,24 @@
 
 #update tuples
 
-store = tuple(("Jinga", "Potol", "Alu", "kochu", "kodu", "papaya"))
 
-y = list(store)
-y[1] = "vendi"
-store = tuple(y)
 
-z = ("orange",)
-store += z
-z = list(store)
-z.remove("Jinga")
-store = tuple(z)
+# y = list(store)
+# y[1] = "vendi"
+# store = tuple(y)
+
+# z = ("orange",)
+# store += z
+# z = list(store)
+# z.remove("Jinga")
+# store = tuple(z)
+
+# print(store)
+
+store = ("Jinga", "Potol", "Alu", "kochu", "kodu", "papaya")
 
 print(store)
-
+del store
 
 
 
