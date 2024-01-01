@@ -41,5 +41,12 @@ thisTuple = ("apple","Banana","Cherry")
 print(len(thisTuple))
 
 #tuple() constructor
-store = tuple(("Jinga","Potol","Alu"))
+store = tuple(("Jinga","Potol","Alu","kochu","kodu","papaya"))
 print(store)
+print(store[1])
+print(store[2:5])
+print(store[:4])
+print(store[2:])
+print(store[-4:-1])
+
+
