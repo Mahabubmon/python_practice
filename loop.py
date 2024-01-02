@@ -42,10 +42,19 @@ place = {"azimpur","new_market","dhanmondi"}
 
 # print("azimpur" in place)
 
-place.add("asadget")
+# place.add("asadget")
 
 road = {12,13,15,18}
-place.update(road)
+# place.update(road)
+
+
+place.remove("new_market")
+
+del road
+
+print(road)
+
+
 
 print(place)
 
