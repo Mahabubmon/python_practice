@@ -37,7 +37,15 @@
 #access set items
 
 place = {"azimpur","new_market","dhanmondi"}  
-for x in place:
-    print(x)
+# for x in place:
+#     print(x)
 
-print("azimpur" in place)
+# print("azimpur" in place)
+
+place.add("asadget")
+
+road = {12,13,15,18}
+place.update(road)
+
+print(place)
+
