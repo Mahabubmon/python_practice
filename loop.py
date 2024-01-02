@@ -28,8 +28,16 @@
 # newList = [x for x in place if "a" in x]
 # print(newList)
 
-def myfunc(n):
-    return abs(n - 50)
-numberList = [100,50,25,23]
-numberList.sort(key = myfunc)
-print(numberList)
+# def myfunc(n):
+#     return abs(n - 50)
+# numberList = [100,50,25,23]
+# numberList.sort(key = myfunc)
+# print(numberList)
+
+#access set items
+
+place = {"azimpur","new_market","dhanmondi"}  
+for x in place:
+    print(x)
+
+print("azimpur" in place)
