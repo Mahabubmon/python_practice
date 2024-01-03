@@ -82,3 +82,9 @@ thisdict = {
 thisdict.update({"year":2020})
 
 print(thisdict)
+
+for x in thisdict:
+    print(x)
+
+mydict = thisdict.copy()
+print(mydict)
