@@ -68,13 +68,17 @@ thisdict = {
     "year":1994
 
 }
-x = thisdict["brand"]
+# x = thisdict["brand"]
 
-print(x)
+# print(x)
 
-y = thisdict.keys()
-print(y)
+# y = thisdict.keys()
+# print(y)
 
-thisdict["color"] = "white"
+# thisdict["color"] = "white"
 
-print(y)
+# print(y)
+
+thisdict.update({"year":2020})
+
+print(thisdict)
