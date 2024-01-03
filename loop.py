@@ -62,12 +62,12 @@ place = {"azimpur","new_market","dhanmondi"}
 
 # print(x)
 
-thisdict = {
-    "brand":"Ford",
-    "model":"Mustang",
-    "year":1994
+# thisdict = {
+#     "brand":"Ford",
+#     "model":"Mustang",
+#     "year":1994
 
-}
+# }
 # x = thisdict["brand"]
 
 # print(x)
@@ -79,12 +79,12 @@ thisdict = {
 
 # print(y)
 
-thisdict.update({"year":2020})
+# thisdict.update({"year":2020})
 
-print(thisdict)
+# print(thisdict)
 
-for x in thisdict:
-    print(x)
+# for x in thisdict:
+#     print(x)
 
-mydict = thisdict.copy()
-print(mydict)
+# mydict = thisdict.copy()
+# print(mydict)
