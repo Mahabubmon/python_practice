@@ -44,17 +44,37 @@ place = {"azimpur","new_market","dhanmondi"}
 
 # place.add("asadget")
 
-road = {12,13,15,18}
+# road = {12,13,15,18}
 # place.update(road)
 
 
-place.remove("new_market")
+# place.remove("new_market")
 
-del road
+# del road
 
-print(road)
+# print(road)
 
 
 
-print(place)
+# print(place)
 
+# x = place.intersection(road)
+
+# print(x)
+
+thisdict = {
+    "brand":"Ford",
+    "model":"Mustang",
+    "year":1994
+
+}
+x = thisdict["brand"]
+
+print(x)
+
+y = thisdict.keys()
+print(y)
+
+thisdict["color"] = "white"
+
+print(y)
