@@ -14,3 +14,11 @@ elif a == c:
     print("a and c are equal")
 else:
     print("c is gater than all of them")
+
+
+if a > 10:
+    print("above ten")
+    if a > 20:
+        print("and alos above 20")
+    else:
+        print("but not Avobe 40")
