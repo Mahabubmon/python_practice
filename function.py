@@ -26,3 +26,9 @@ def my_function(food):
 fruits = ["apple", "banana", "cherry"]
 
 my_function(fruits)
+
+
+def my_function(x, /):
+  print(x)
+
+my_function(3)
