@@ -40,10 +40,14 @@ class Person:
 # p1.myfunc()
 
 
-class Student(Person):
-  def __init__(self, fname, lname, year):
-    super().__init__(fname, lname)
-    self.graduationyear = year
+# class Student(Person):
+#   def __init__(self, fname, lname, year):
+#     super().__init__(fname, lname)
+#     self.graduationyear = year
 
-  def welcome(self):
-    print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+#   def welcome(self):
+#     print("Welcome", self.firstname, self.lastname, "to the class of", self.graduationyear)
+
+class Student(Person):
+    def __init__(self, name, age):
+        super().__init__(name, age)
