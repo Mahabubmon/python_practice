@@ -52,5 +52,9 @@ def update_trade(id):
     return jsonify(trade.to_dict())
 
 if __name__ == '__main__':
-    db.create_all()
+    # Create all database tables within the Flask application context
+    with app.app_context():
+        db.create_all()
+
+    # Run the Flask application
     app.run(debug=True)
